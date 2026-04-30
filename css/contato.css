@@ -1,0 +1,26 @@
+.divform {
+    width: 840px;
+    background-color: rgb(222, 219, 219);
+    padding: 10px;
+}
+
+.divform fieldset {
+    border: none;
+}
+
+.label {
+    font-size: 20px;
+    padding: 8px 0 6px 0;
+}
+
+.divform input[type=text],
+.divform input[type=email] {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: 1px solid #470864;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
