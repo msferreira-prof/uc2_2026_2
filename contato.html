@@ -53,7 +53,7 @@
                     <input type="tel" id="idTelefone" name="telefone" placeholder="Digite seu telefone" required>
 
                     <div class="label">
-                        <label for="idGenero">Genero</label>
+                        <label>Genero</label>
                     </div>
 
                     <input type="radio" id="idGeneroM" name="genero" value="M" class="radio">
@@ -65,7 +65,28 @@
                     <input type="radio" id="idGeneroO" name="genero" value="O" class="radio">
                     <label for="idGeneroO" name="genero" class="label-radio">Outros</label>
 
+                    <div class="label">
+                        <label for="idAssunto">Assunto</label>
+                    </div>
+                    <select name="assunto" id="idAssunto" required>
+                        <option value="0" selected>Selecione...</option>
+                        <option value="E">Elogio</option>
+                        <option value="C">Crítica</option>
+                        <option value="S">Solicitação</option>
+                        <option value="O">Outros</option>
+                    </select>
 
+                    <div class="label">
+                        <label for="idMensagem">Mensagem</label>
+                    </div>                        
+                    <textarea rows="10" cols="200" id="idMensagem" 
+                              name="mensagem" placeholder="Preencha com a mensagem desejada" 
+                              class="minhaTextArea"></textarea>
+
+                    <div class="botoes">
+                        <input type="reset" value="Limpar">
+                        <input type="submit" value="Enviar">
+                    </div>
                 </fieldset>
 
             </form>
